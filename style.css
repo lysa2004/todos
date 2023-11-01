@@ -1,0 +1,58 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#task-list {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+#task-form {
+    margin: 20px;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #71ba73;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+li {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.delete-button {
+    margin-left: 10px;
+    background-color: #ffffff;
+    color: #080808;
+    border: none;
+    cursor: pointer;
+}
